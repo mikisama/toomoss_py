@@ -13,15 +13,18 @@ $ pip install git+https://github.com/mikisama/toomoss_py
 
 ## Development
 ```
+$ git clone https://github.com/mikisama/toomoss_py
+$ cd toomoss_py
 $ pip install -e .
 ```
 
 ## Example
 
 ```py
-from toomoss.sdk.usb_device import USB_ScanDevice
-from ctypes import c_uint, byref
 import sys
+from ctypes import byref, c_uint
+
+from toomoss.sdk.usb_device import USB_ScanDevice
 
 DevHandles = (c_uint * 8)()
 ret = USB_ScanDevice(byref(DevHandles))
