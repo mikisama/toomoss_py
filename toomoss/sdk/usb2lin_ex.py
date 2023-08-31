@@ -25,6 +25,11 @@ LIN_EX_CHECK_ERROR = 4  # 接收数据校验错误
 LIN_EX_MASTER = 1
 LIN_EX_SLAVE = 0
 
+# VBAT引脚电压定义
+LIN_EX_VBAT_0V = 0  # VBAT输出0V
+LIN_EX_VBAT_12V = 1  # VBAT输出12V
+LIN_EX_VBAT_5V = 2  # VBAT输出5V
+
 # 定义消息类型
 LIN_EX_MSG_TYPE_UN = 0  # 未知类型
 LIN_EX_MSG_TYPE_MW = 1  # 主机向从机发送数据
