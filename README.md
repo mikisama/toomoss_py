@@ -2,7 +2,7 @@
 
 TOOMOSS USB to CAN, CANFD, LIN, PWM python SDK
 
-[USB2XXX](http://www.toomoss.com/)
+source code adapted from [usb2can_lin_pwm_example](https://gitee.com/toomoss/usb2can_lin_pwm_example)
 
 ## Installation
 ```
