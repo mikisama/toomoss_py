@@ -7,7 +7,7 @@ source code adapted from [usb2can_lin_pwm_example](https://gitee.com/toomoss/usb
 ## Installation
 ```
 $ uv venv
-$ uv pip install toomoss_py
+$ uv pip install toomoss-py
 ```
 
 ## Example
